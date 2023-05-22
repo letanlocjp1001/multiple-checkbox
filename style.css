@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: #333;
+  color: white;
+  position: relative;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  font-weight: 500;
+  border: 1px solid snow;
+  border-radius: 10px;
+  padding: 30px;
+}
+.title {
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.box {
+  padding: 10px 0;
+  border-bottom: 1px solid snow;
+}
+label {
+  font-size: 24px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.checkbox {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+.print {
+  font-size: 18px;
+  padding: 10px 0;
+}
